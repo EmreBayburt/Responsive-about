@@ -1,0 +1,807 @@
+:root{
+    --arka-plan-renk: #f2f2f2;
+    --arka-plan-alternatif-renk: #434ccc;
+    --yazi-renk: #000;
+    --yazi-alternatif-renk: #fff;
+}
+h1{
+    font-size: 72px;
+    line-height: 80px;
+    font-weight: 400;
+}
+h2{
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 400;
+}
+h3{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 400;
+}
+h4{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+}
+h5{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+/* header start */
+header{
+    background-color: var(--arka-plan-alternatif-renk);
+}
+.container{
+    width: 376px;
+    margin: 0 auto;
+    padding: 14px 16px;
+}
+.outerContainer{
+    padding: 14px 16px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+.menuLogo{
+    font-family: 'DM Serif Display', serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    color: var(--yazi-alternatif-renk);
+}
+.headerText{
+    text-align: center;
+    color: var(--yazi-alternatif-renk);
+}
+.headerText h2{
+    margin-bottom: 14px;
+}
+.headerText p{
+    font-size: 20px;
+    line-height: 32px;
+}
+/* header end */
+/* hero start */
+main{
+    background-color: var(--arka-plan-renk);
+}
+.hero{
+    margin-bottom: 42px;
+}
+.heroText h5{
+    margin-top: 46px;
+}
+.heroText h3{
+    margin-bottom: 30px;
+}
+.heroText p{
+    margin-bottom: 42px;
+}
+.homero p{
+    opacity: 0.5;
+}
+.partem{
+    padding-top: 40px;
+}
+.partem p{
+    margin-bottom: 42px;
+}
+.homeroCizgi{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    opacity: 0.3;
+}
+/* hero end */
+/* vivendo start */
+.vivendoText h3{
+    margin-bottom: 30px;
+}
+.vivendoText p{
+    margin-bottom: 50px;
+}
+.textCenter{
+    text-align: center;
+}
+.vivendoCardText{
+    margin-left: 32px;
+}
+.vivendoCard{
+    background: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
+    margin-bottom: 16px;
+    flex: 1;
+    padding: 30px 0px;
+    margin-bottom: 60px;
+}
+.vivendoImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 210px;
+}
+.vivendoCardText h4{
+    margin-bottom: 30px;
+}
+.vivendoCardText p{
+    opacity: 0.5;
+}
+.vivendoCizgi{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    opacity: 0.3;
+    margin-bottom: 18px;
+}
+.vivendoCardText a{
+    color: var(--yazi-renk);
+}
+.vivendoAltCizgi{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    opacity: 0.3;
+}
+/* vivendo end */
+/* inciderint start */
+.loremText{
+    margin-bottom: 44px;
+}
+.loremText p{
+    margin-bottom: 18px;
+}
+.loremText h3{
+    margin-bottom: 30px;
+}
+.loremCards{
+    margin-bottom: 58px;
+    margin-top: 60px;
+}
+.loremCard{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.loremRight{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.loremCard p{
+    padding-top: 12px;
+    opacity: 0.5;
+}
+.exploreButton{
+    background: var(--arka-plan-alternatif-renk);
+    border-radius: 5px;
+    padding: 12px 56px;
+    color: #fff;
+}
+.learnMore{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    color: #434ccc;
+    padding: 12px 38px;
+}
+.loremButton{
+    margin-top: 40px;
+    padding-bottom: 73px;
+}
+/* lorem end */
+
+/* simillique start */
+.simillique{
+    background-color: var(--arka-plan-alternatif-renk);
+    padding-top: 74px;
+    padding-bottom: 72px;
+}
+.similliqueText{
+    color: var(--yazi-alternatif-renk);
+    text-align: center;
+}
+.similliqueText h2{
+    margin-bottom: 32px;
+}
+.similliqueText p{
+    margin-bottom: 30px;
+    opacity: 0.5;
+}
+/* vim start */
+.vimText p{
+    margin-bottom: 30px;
+}
+.exploreButtonAlt{
+    border: 1px solid #434ccc;
+    color: #434ccc;
+    padding: 12px 56px;
+    border-radius: 5px;
+}
+.vimItem{
+    margin-top: 72px;
+}
+.vimCard p{
+    opacity: 0.5;
+}
+.vimCard{
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    margin-bottom: 36px;
+}
+.vim img{
+    width: 86px;
+    height: 48px;
+}
+.vimCizgi{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 60px;
+}
+/* vim end */
+/* nostrum start */
+.nostrum{
+    margin-bottom: 80px;
+}
+.nostrum img{
+    margin-bottom: 58px;
+}
+.nostrumText h3{
+    margin-bottom: 30px;
+}
+.nostrumText p{
+    margin-bottom: 30px;
+}
+.nostrumCizgi{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 60px;
+}
+/* nostrum end */
+/* usu start */
+/* section yellow start */
+.statics{
+    margin-top: 30px;
+}
+.yellowText{
+    width: 346px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -10px;
+}
+.yellowImg{
+    width: 346px; /* Çubuğun genişliği */
+    height: 20px; /* Çubuğun yüksekliği */
+    position: relative;
+}
+.yellowImg .yellowLeft{
+    width: 281px;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.yellowImg .yellowRight{
+    height: auto;
+    position: absolute;
+    top: 0;
+}
+/* section yellow end */
+/* section red start */
+.staticRed{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.redText{
+    width: 346px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -10px;
+}
+.redImg{
+    width: 346px; /* Çubuğun genişliği */
+    height: 20px; /* Çubuğun yüksekliği */
+    position: relative;
+}
+.redImg .redLeft{
+    width: 234px;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.redImg .redRight{
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* section red end */
+/* section blue start */
+
+.blueText{
+    width: 346px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -10px;
+}
+.blueImg{
+    width: 346px; /* Çubuğun genişliği */
+    height: 20px; /* Çubuğun yüksekliği */
+    position: relative;
+}
+.blueImg .blueLeft{
+    width: 134px;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.blueImg .blueRight{
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* section blue end */
+/* mea start */
+.mea{
+    background-color: #ffdd78;
+    padding-bottom: 60px;
+    padding-top: 62px;
+}
+.meaItem{
+    padding: 14px 16px;
+}
+.meaText h3{
+    margin-bottom: 10px;
+}
+.meaItem input{
+    display: block;
+    width: 100%;
+    height: 48px;
+    margin-bottom: 32px;
+}
+input {
+    border-radius: 5px;
+    border-color: #DADADA;
+}
+.subscribe{
+    background-color: var(--arka-plan-alternatif-renk);
+    color: var(--yazi-alternatif-renk);
+    padding: 12px 46px;
+    border-radius: 5px;
+}
+.email{
+    padding-left: 12px;
+}
+/* mea end */
+/* footer start */
+.footerLogo{
+    background-color: #f2f2f2;
+}
+.footerItem{
+    padding-top: 72px;
+}
+.footerItem a{
+    margin-bottom: 24px;
+    font-family: 'DM Serif Display', serif;
+    color: #000;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.footerItem p{
+    color: #000;
+    margin-top: 24px;
+    opacity: 0.5;
+}
+.footerMedia{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 80px;
+    margin-top: 24px;
+}
+.footerOrta{
+    display: flex;
+    gap: 120px;
+    margin-top: 30px;
+}
+.footerOrta h4{
+    color: #000;
+}
+.footerText p{
+    margin-top: 70px;
+}
+.footerUp{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.footerUp img{
+    width: 76px;
+    height: 64px;
+    margin-top: 86px;
+}
+.footerUp p{
+    width: 24ch;
+    padding-top: 18px;
+}
+.footerDown{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 56px;
+}
+.footerDown img{
+    width: 76px;
+    height: 64px;
+    margin-top: 86px;
+}
+.footerDown p{
+    padding-top: 20px;
+}
+.footerText h5{
+    color: #000;
+}
+.footerCizgi{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.footerEnd{
+    padding-top: 60px;
+}
+.footerEnd p{
+    color: #000;
+    opacity: 0.5;
+    margin-bottom: 8px;
+}
+.footerTarih h5{
+    letter-spacing: normal;
+}
+/* media desktop start */
+@media(min-width:1170px){
+    /* header start */
+    .container{
+        width: 1170px;
+        margin: 0 auto;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        margin-bottom: 75px;
+    }
+    .menuLogo {
+        font-size: 40px;
+        line-height: 48px;
+        font-weight: 400;
+    }
+    .nav{
+        display: flex;
+        gap: 40px;
+        margin-left: auto;
+    }
+    .nav a{
+        color: var(--yazi-alternatif-renk);
+        margin-right: 40px;
+    }
+    .signUp{
+        padding: 13px 56px;
+        border: 1px solid rgba(255,255,255,0.3);
+        border-radius: 5px;
+        color: var(--yazi-alternatif-renk);
+    }
+    /* header end */
+    /* hero start */
+    .hero{
+        padding-top: 126px;
+    }
+    .heroImgDesktop{
+        width: 1170px;
+        margin: 0 auto;
+        background-image: url('..//img/png/homeroDesktop.png');
+        background-size: 690px;
+        background-position: left 130% top -150px;
+        background-repeat: no-repeat;
+    }
+    .homero{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    .container > p{
+        width: 42ch;
+        margin-bottom: 30px;
+    }
+    .partem p{
+        width: 24ch;
+    }
+    .natum p{
+        width: 20ch;
+    }
+    /* hero end */
+    /* vivendo start */
+    .vivendoCards{
+        display: flex;
+        gap: 30px;
+    }
+    /* vivendo end */
+    /* lorem start */
+    .loremItem{
+        display: flex;
+        align-items: center;
+        gap: 160px;
+    }
+    .loremText{
+        margin-top: 126px;
+    }
+    .loremCards{
+        margin-top: 24px;
+    }
+    .loremCard{
+        display: flex;
+        align-items: center;
+    }
+    .loremButton{
+        display: flex;
+        gap: 30px;
+    }
+    /* lorem end */
+    /*  */
+    /* simillique start */
+    .statistics{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    /* simillique end */
+    /* vim start */
+    .vim{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr auto;
+        gap: 80px;
+    }
+    .vimText{
+        margin-top: 56px;
+        width: 32ch;
+    }
+    .vimText h5{
+        margin-bottom: 22px;
+    }
+    .vimText h3{
+        margin-bottom: 30px;
+        font-size: 56px;
+        line-height: 64px;
+    }
+    .vimText p{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .vimItem{
+        margin-top: 40px;
+        padding-top: 96px;
+    }
+    .vimImg{
+        width: 60px;
+        height: 46px;
+    }
+    .vimCards{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+    .vimCard{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr auto;
+        gap: 30px;
+        margin-bottom: 60px;
+    }
+    .cardText{
+        width: 100%;
+    }
+    /* vim end */
+    /* nostrum start */
+    .nostrum{
+        display: flex;
+        gap: 120px;
+    }
+    .nostrum img{
+        width: 570px;
+        height: 480px;
+    }
+    .nostrumText{
+        margin-top: 30px;
+    }
+    .nostrumText h3{
+        font-size: 56px;
+        line-height: 64px;
+    }
+    .nostrumText p{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    /* usu start */
+    .usuText h2{
+        width: 16ch;
+        margin-bottom: 40px;
+    }
+    .usuItem{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .usuImgDesktop img{
+        margin-top: -80px;
+    }
+    .statics{
+        margin-top: -166px;
+    }
+    /* section yellow start */
+    .staticYellow{
+        margin-bottom: 20px;
+    }
+    .yellowText{
+        width: 470px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -10px;
+    }
+    .yellowImg{
+        width: 470px; /* Çubuğun genişliği */
+        height: 20px; /* Çubuğun yüksekliği */
+        position: relative;
+    }
+    .yellowImg .yellowLeft{
+        width: 382px;
+        height: 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    .yellowImg .yellowRight{
+        height: auto;
+        position: absolute;
+        top: 0;
+    }
+    /* section yellow end */
+    /* section red start */
+    .staticRed{
+        margin-bottom: 20px;
+    }
+    .redText{
+        width: 470px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -10px;
+    }
+    .redImg{
+        width: 470px; /* Çubuğun genişliği */
+        height: 20px; /* Çubuğun yüksekliği */
+        position: relative;
+    }
+    .redImg .redLeft{
+        width: 318px;
+        height: 10px;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+    }
+    .redImg .redRight{
+        height: auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    /* section red end */
+    /* section blue start */
+    .blueText{
+        width: 470px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -10px;
+    }
+    .blueImg{
+        width: 470px; /* Çubuğun genişliği */
+        height: 20px; /* Çubuğun yüksekliği */
+        position: relative;
+    }
+    .blueImg .blueLeft{
+        width: 182px;
+        height: 10px;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+    }
+    .blueImg .blueRight{
+        height: auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    /* mea start */
+    .meaItem{
+        display: flex;
+        align-items: center;
+    }
+    .meaText h3{
+        font-size: 56px;
+        line-height: 64px;
+        width: 20ch;
+    }
+    .input input{
+        width: 370px;
+        margin-top: 60px;
+        display: inline;
+        margin-right: 30px;
+    }
+    input{
+        display: flex;
+    }
+    /* usu end */
+    /* footer start */
+    .footerItem{
+        display: flex;
+        align-items: center;
+        gap: 110px;
+    }
+    .footerItemText{
+        margin-top: 64px;
+    }
+    .footerItemText p{
+        width: 26ch;
+    }
+    .footerText{
+        margin-top: 14px;
+    }
+    .footerEnd{
+        width: 1170px;
+        margin: 0 auto;
+        padding: 14px 16px;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    /* none bolumu */
+    .mobileMenu{
+        display: none;
+    }
+    .homeroMobileImg{
+        display: none;
+    }
+    .heroMobile{
+        display: none;
+    }
+    .usuImgMobile{
+        display: none;
+    }
+    .socialMediaMobile{
+        display: none;
+    }
+}   
+
+
+
+/* media mobile start */
+@media(max-width:1170px){
+    /* header start */
+    .nav{
+        display: none;
+    }
+    .signUp{
+        display: none;
+    }
+    /* header end */
+    .heroImgDesktop{
+        display: none;
+    }
+    .usuImgDesktop{
+        display: none;
+    }
+    .socialMediaDesktop{
+        display: none;
+    }
+}
+/* media mobile end */
